@@ -1,0 +1,255 @@
+
+.main-bar ul {
+
+background-color:  rgb(11, 28, 32);
+height: 60px;
+
+list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+font-size: 17px;
+font-weight: bold;
+margin-top: -10px;
+border-bottom:solid rgb(122, 153, 240) 5px ;
+
+
+
+}
+
+.main-bar ul .ho{
+    background-color: rgb(122, 153, 240);
+    padding: 20px;
+     
+    cursor:pointer ;
+    
+}
+.main-bar ul .ab {
+    background-color: rgb(122, 153, 240);
+    padding: 20px;
+    cursor:pointer ;
+    
+}
+.main-bar ul .por {
+    background-color: rgb(122, 153, 240);
+    padding: 20px;
+    cursor:pointer ;
+    
+}
+.main-bar ul .con {
+    background-color: rgb(122, 153, 240);
+    padding: 20px;
+    user-select: none; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    cursor:pointer ;
+    
+}
+/*---------------------------- - -- - -  - - ------ - */
+#home {
+background-color:  rgb(11, 28, 32);
+height: 50vh;
+display: flex;
+margin-top: -17px;
+flex-direction: row;
+color: white;
+
+
+
+
+}
+
+#home .image img  {
+    display: block;
+    margin: 20px;
+    border: solid transparent 3px;
+    border-radius: 10%;
+    margin-top: 40px;
+
+}
+
+#home .para{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+/*  ------ -------- -------- -----------  - ------  */
+.about-me{
+    
+    
+    background-color: rgb(11, 28, 32);
+    height: 60vh;
+}
+
+.about-me #about-me-bar {
+    font-size: larger;
+    background-color: rgb(122, 153, 240);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    
+
+}
+
+.about-me .main-para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+/* ------- ----  -  - - ------- ---------- - -  - --   */
+
+
+#port-bar{
+
+    font-size: larger;
+    background-color: rgb(122, 153, 240);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+
+.portfolio  {
+
+    background-color: rgb(11, 28, 32) ;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.portfolio .oop {
+    background-color: rgb(15, 46, 53) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 70vh;
+    width: 28vw;
+    padding: 15px;
+    margin-bottom: 1px;
+    border: solid  rgb(122, 153, 240) 3px ;
+    border-radius: 10%;
+}
+
+.portfolio .web {
+    background-color: rgb(15, 46, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 70vh;
+    width: 28vw;
+    padding: 15px;
+    border: solid  rgb(122, 153, 240) 3px ;
+    border-radius: 10%;
+}
+
+.portfolio .elec {
+    background-color: rgb(15, 46, 53) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 70vh;
+    width: 28vw;
+    padding: 15px;
+    border: solid  rgb(122, 153, 240) 3px ;
+    border-radius: 10%;
+    
+}
+
+.portfolio .oop img, .portfolio .web img, .portfolio .elec img {
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-self: center;
+align-items: center;
+border: solid  transparent 5px ;
+border-radius: 10%;
+
+
+}
+
+/*---------------------------------- --- - -- - - - - -*/
+
+/*.cont-bar{
+
+    font-size: larger;
+    background-color: rgb(122, 153, 240);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}*/
+
+#contact-me{
+    background-color: rgb(122, 153, 240);
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    align-items: center;
+    height: 10vh;
+    padding-left: 30px;
+    gap: 25px;
+
+    
+    
+}
+
+
+
+
+
+
+.ho:hover{
+    color: rgb(219, 9, 9);
+}
+
+.ab:hover{
+    color: rgb(219, 9, 9);
+}
+
+.por:hover{
+    color: rgb(219, 9, 9);
+}
+
+.con:hover{
+    color: rgb(219, 9, 9);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.main-bar ul .con a, .por a, .ab a, .ho a  {
+    color: inherit; 
+    text-decoration: none; 
+    display: block; 
+    height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    
+    body {
+        font-size: 14px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .main-bar ul {
+        height: 30px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .portfolio img {
+        width: 60x;
+        height: 60px;
+    }
+
+}
